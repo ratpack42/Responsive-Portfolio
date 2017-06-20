@@ -243,9 +243,30 @@ input[type=submit] {
 /* Mobile Devices */
 
 @media screen and (max-width: 680px) {
+
   #masthead{
     background: red;
     position: static;
+    float: none;
+    width: 100%;
+  }
+
+  #logo{
+    background: orange;
+
+  }
+
+  nav{
+    background: white;
+  }
+
+  .sidebar{
+    background: blue;
+    
+  }
+
+  .main-section{
+    background: yellow;
   }
   
 }
