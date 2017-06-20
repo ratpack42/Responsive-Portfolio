@@ -245,23 +245,32 @@ input[type=submit] {
 @media screen and (max-width: 680px) {
 
   #masthead{
-    background: red;
     position: static;
     float: none;
-    width: 100%;
+    
   }
 
   #logo{
-    background: orange;
+    width: 100%;
+    
 
   }
 
   nav{
-    background: white;
+    float: center;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+  
+
   }
 
   .sidebar{
     background: blue;
+    width: 100%;
+    display: block;
+    
     
   }
 
