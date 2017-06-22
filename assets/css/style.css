@@ -240,9 +240,16 @@ input[type=submit] {
 
 /* Media Queries */
 
+/*Tablet Media Query*/
+
+
+
+
+
+
 /* Mobile Devices */
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 640px) {
 
   #masthead{
     position: static;
@@ -250,36 +257,68 @@ input[type=submit] {
     
   }
 
+  #main-container{
+    padding: 30px;
+  }
+
   #logo{
-    width: 100%;
-    
+    width: 100%;  
 
   }
 
   nav{
     float: center;
-    width: 100%;
     text-align: center;
-    padding: 30px;
-    margin: 0;
-  
-
+    width: 100%;
+    padding: 5px;
+    
   }
 
   .sidebar{
-    background: blue;
-    width: 100%;
-    display: block;
-    
-    
-  }
+    max-width: none;
 
-  .main-section{
-    background: yellow;
+    }
+    
+  .auth-image{
+    float: none;
+    width: 100%;
+
   }
-  
+}   
+
+@media screen and (max-width: 768px){
+}
+ .main-section{
+  float: none;
+  width: 95%;
+  max-width: none;
+  margin: 0 auto;
+ } 
+
+ .sidebar{
+  float: none;
+  width: 95%;
+  max-width: none;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+ }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
